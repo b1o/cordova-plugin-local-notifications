@@ -122,6 +122,7 @@ public final class Manager {
         channel = new NotificationChannel(
                 CHANNEL_ID, CHANNEL_NAME, IMPORTANCE_DEFAULT);
 
+        channel.setSound(null, null);
         mgr.createNotificationChannel(channel);
     }
 
